@@ -5,7 +5,7 @@
 
 #define DISPLAY 1
 
-enum SortingAlgoType Algo = InsertionSort;
+enum SortingAlgoType Algo = MergeSort;
 
 int main()
 {
@@ -25,7 +25,7 @@ int main()
             break;
         
         case MergeSort:
-            //MergeSortAlgo(a, INPUT_SIZE);
+            mergeSortAlgo(a, INPUT_SIZE);
             break;
 
         default:
