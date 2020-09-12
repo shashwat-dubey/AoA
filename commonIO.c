@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include "commonIO.h"
+#include "cmnInterface.h"
 #define RANGE 100
 
 int generateRandomInput(int* arr, int size)
